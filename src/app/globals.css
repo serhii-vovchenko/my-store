@@ -1,0 +1,58 @@
+@import 'normalize.css';
+
+:root {
+	--background: #ffffff;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-size: 14px;
+	min-width: 320px;
+	min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+	body {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 1440px) {
+	body {
+		font-size: 18px;
+	}
+}
